@@ -9,6 +9,7 @@
 
 ### About Me
 I am an excellent team worker
+I’m interested in beginning a career in IT
 
 ----
 ### Skills
