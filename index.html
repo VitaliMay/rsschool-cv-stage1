@@ -95,14 +95,14 @@
 					<pre class="code">
 						<code>
 
-  function getDecimal(n) {
-	return +n.toString().replace(/^(.?\d+)/g, 0);
+  function&nbsp;getDecimal(n)&nbsp;{
+	return&nbsp;+n.toString().replace(/^(.?\d+)/g,&nbsp;0);
   }
 
 
-  function getDecimal(n){
-	if (n%1 === 0) return 0;
-	return  +('0.' + n.toString().replace(/[-]?\d+[\.\,]/g, ''))
+  function&nbsp;getDecimal(n){
+	if&nbsp;(n%1&nbsp;===&nbsp;0)&nbsp;return&nbsp;0;
+	return&nbsp;+('0.'&nbsp;+&nbsp;n.toString().replace(/[-]?\d+[\.\,]/g,&nbsp;''))
   }
 
   <!-- function getDecimal(n){

@@ -103,6 +103,7 @@ h2 {
 
 .contact {
   margin: 10px 5px 10px 40px;
+  overflow: auto; /*for scroll*/
 }
 
 .contact li::marker {
@@ -111,6 +112,7 @@ h2 {
 
 .languages {
   margin: 10px 5px 10px 40px;
+  overflow: auto; /*for scroll*/
 }
 
 .languages li::marker {
@@ -164,7 +166,7 @@ h2 {
 }
 
 pre {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   overflow: auto; /*for scroll*/
   background-color: rgb(152, 150, 168);
   border-radius: 2%;
